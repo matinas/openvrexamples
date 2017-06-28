@@ -1,9 +1,8 @@
 // TODOs: 1. Solve the render models texture problem
-//		  2. Use the resolve frame buffer used for implemeting a kind of multipass antialiasing and check visual improvement: https://www.khronos.org/opengl/wiki/Multisampling
+//		  2. Use the resolve frame buffer used for implementing a kind of multipass antialiasing and check visual improvement: https://www.khronos.org/opengl/wiki/Multisampling
 //		  3. Add some cool effects to the cube (e.g.: mirroring using stencil buffer from "Pruebas OpenGL3" project)
 //		  4. Add a big cube (or textured sphere) including the whole scene in order to implement a simple environment
-//		  5. Upload project to github
-//		  6. Add some lighting to the project (implement lighting equations in shaders)
+//		  5. Add some lighting to the project (implement lighting equations in shaders)
 
 #include "scene_manager.h"
 
@@ -34,8 +33,8 @@ int SceneManager::init() {
 
 	app_end = false;
 	v_blank = false;
-	w_width = 800; w_height = 600;
-	w_pos_x = 300; w_pos_y = 300;
+	w_width = 1200; w_height = 900;
+	w_pos_x = 100; w_pos_y = 100;
 
 	base_stations_count = 0;
 
